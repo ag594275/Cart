@@ -1,0 +1,91 @@
+.main-cart{
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+}
+
+.cart-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    align-items: center;
+    padding: 25px;
+}
+
+.btn{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.incdec-btn{
+    width: 15%;
+    background-color: rgb(234, 158, 18);
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border:none;
+    font-weight: bold;
+    outline: none;
+    border-radius: 5px;
+}
+
+.incdec-btn:hover{
+    background-color: rgb(214, 143, 12);
+}
+
+.remove{
+    width: 30%;
+    background-color: rgb(234, 18, 18);
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border:none;
+    font-weight: bold;
+    outline: none;
+    border-radius: 5px;
+}
+
+.remove:hover{
+    background-color: rgb(210, 17, 17);
+}
+
+.quantity{
+    font-weight: bold;
+}
+
+.quantity span{
+    color:  rgb(214, 143, 12);
+    font-weight: bold;
+}
+
+.quan-price{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.total{
+    display: flex;
+    gap: 10px;
+}
+
+.total span:nth-child(1){
+    color: orange;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    }
+    
+    .total span:nth-child(2){
+        font-size: 1.5rem;
+        color: green;
+        font-weight: bold;
+    }
+
+    .empty{
+        
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }

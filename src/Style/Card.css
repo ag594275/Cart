@@ -1,0 +1,62 @@
+.sec{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+}
+
+.card{
+    width: 250px;
+    padding: 20px;
+}
+
+.card:hover{
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.img-box img{
+    width: 150px;
+    height: 200px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 5px;
+}
+.title{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.author{
+    color: grey;
+    font-size: 0.8rem;
+}
+
+.price{
+    font-weight: bold;
+}
+.price span{
+    color: green;
+    font-weight: bold;
+}
+
+.add-btn{
+    background-color: rgb(234, 158, 18);
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border:none;
+    font-weight: bold;
+    outline: none;
+    border-radius: 5px;
+}
+
+.add-btn:hover{
+    background-color: rgb(192, 130, 16);
+}
